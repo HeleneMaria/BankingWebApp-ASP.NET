@@ -1,0 +1,45 @@
+﻿body 
+{
+    background-color: darkgrey;
+}
+
+a:visited
+{
+    color: blue;
+}
+
+div.nav
+{
+    border: 1px solid black;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+ul.nav
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+} 
+
+ul.nav li
+{
+    display: inline;
+    margin: 0 10px;
+}
+
+.pageDiv
+{
+    padding: 10px;
+}
+
+.masterDiv
+{
+    width: 80%; 
+    min-width: 800px; 
+    min-height: 400px; 
+    margin: 0 auto; 
+    border: 1px dashed black;
+    background-color: white;
+}
